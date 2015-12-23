@@ -14,6 +14,11 @@ int main(){
   multiplicationCasting = static_cast<int>(2.5 * 2); // will be casted to 5
   cout << "Multiplication " << multiplicationCasting << endl;
 
+  //divide
+  float result = 12/5; //10
+  cout << result << endl;
+  result = 12/static_cast<float>5;
+  cout << result << endl; //2.4s
 
   return 0;
 }
